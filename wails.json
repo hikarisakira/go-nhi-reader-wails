@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "nhi-pcsc-reader",
+  "outputfilename": "nhi-pcsc-reader",
+  "frontend:install": "pnpm i",
+  "frontend:build": "pnpm build",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Cheng-Yang, Li",
+    "email": "hsakira.k861@mmh.org.tw"
+  }
+}
