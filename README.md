@@ -1,19 +1,30 @@
-# README
+# Go-NHI-Reader-Wails
 
 ## About
 
-This is the official Wails React-TS template.
+這個專案可供讀取健保IC卡內資料，並列出以下資訊：
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+- 健保卡卡號
+- 姓名
+- 身分證字號
+- 出生年月日
+- 性別
+- 發卡日期
 
-## Live Development
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+## Usage
 
-## Building
+開始執行或測試之前，您需要：
+- Go 1.23.2(或以上)
+- [Wails](https://wails.io/)
+- node.js 20.x LTS
+- pnpm@latest
+- 一個功能正常的讀卡機(且已有完備的驅動程式)
 
-To build a redistributable, production mode package, use `wails build`.
+執行步驟如下：
+
+1. 進入./frontend，執行`pnpm i`。
+
+2. 回到專案根目錄，執行`wails dev`。
+
+- 若您想編譯為獨立程式，請執行`wails build`。
