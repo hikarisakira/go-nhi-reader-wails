@@ -1,4 +1,4 @@
-module github.com/hikarisakira/nhi-pcsc-reader
+module github.com/hikarisakira/go-nhi-reader-wails
 
 go 1.21
 

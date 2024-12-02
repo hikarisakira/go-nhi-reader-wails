@@ -2,6 +2,8 @@
 
 ## About
 
+類似於[Benknightdark/ElectronVueCardReader](https://github.com/Benknightdark/ElectronVueCardReader)，但是本專案使用Wails/React構建。
+
 這個專案可供讀取健保IC卡內資料，並列出以下資訊：
 
 - 健保卡卡號

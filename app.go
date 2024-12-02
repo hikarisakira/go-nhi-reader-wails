@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/ebfe/scard"
-	"github.com/hikarisakira/nhi-pcsc-reader/models"
+	"github.com/hikarisakira/go-nhi-reader-wails/models"
 	"github.com/wailsapp/wails/v2/pkg/runtime"
 	traditionalChinese "golang.org/x/text/encoding/traditionalchinese"
 )

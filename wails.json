@@ -1,7 +1,7 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "nhi-pcsc-reader",
-  "outputfilename": "nhi-pcsc-reader",
+  "name": "go-nhi-reader-wails",
+  "outputfilename": "go-nhi-reader-wails",
   "frontend:install": "pnpm i",
   "frontend:build": "pnpm build",
   "frontend:dev:watcher": "pnpm dev",
